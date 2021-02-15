@@ -1,1 +1,2 @@
-# naive_genome_assembly_pipeline
+# genome_assembly_pipeline
+### A Naive approach to genome assembly
