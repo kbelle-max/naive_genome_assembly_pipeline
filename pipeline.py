@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 import random
 
 test_ref="ACGATCGATGCTAGTCTATTACTGACTAGCTAGCATGCATCTAGCTATCGATCAGTCATCCTCTCTAGTCACTATCATTGCATGCTACGATCACTACTATGCATGTCGATCATCATTGCATGATCTAGCTACTACATGCATCATGCACTAGCATCATGATGTCATCTACTCAGTTGTGTACATGCTAGCTA"
 
-def create_reads(ref,read_length=100,read_count=100):
+def create_reads(ref,read_length=100,read_count=1000000):
     """returns generated reads as a 2d list 
     Params:
     ------
